@@ -245,8 +245,11 @@ with tab1:
 
         barplot(offline_df, offline_x, offline_y)
         linechart(offline_df, offline_x, offline_y)
-        baxplot(offline_df, offline_x, offline_y)
-        scatterplot(offline_df, offline_x, offline_y)
+        col3, col4 = st.columns([1, 1])
+        with col3:
+            baxplot(offline_df, offline_x, offline_y)
+        with col4:
+            scatterplot(offline_df, offline_x, offline_y)
         piechart(offline_df, offline_x, offline_y)
 
 with tab2:
@@ -276,8 +279,11 @@ with tab2:
 
         barplot(online_df, online_x, online_y)
         linechart(online_df, online_x, online_y)
-        baxplot(online_df, online_x, online_y)
-        scatterplot(online_df, online_x, online_y)
+        col3, col4 = st.columns([1, 1])
+        with col3:
+            baxplot(online_df, online_x, online_y)
+        with col4:
+            scatterplot(online_df, online_x, online_y)
         piechart(online_df, online_x, online_y)
 
 with tab3:
