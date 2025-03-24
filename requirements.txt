@@ -1,8 +1,9 @@
 streamlit
 pandas
-numpy
-plotly
-sqlalchemy
-mysql
+mysql-connector-python
+SQLAlchemy
 matplotlib
-sklearn
+seaborn
+scikit-learn
+plotly
+PyMySQL
