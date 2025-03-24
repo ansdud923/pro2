@@ -4,3 +4,5 @@ numpy
 plotly
 sqlalchemy
 mysql
+matplotlib
+sklearn
